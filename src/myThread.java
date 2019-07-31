@@ -29,7 +29,7 @@ class myThread implements Runnable {
         System.out.println("Running " +  threadName );
         try {
             System.out.println("Press " + threadName + " to pause the thread");
-            System.out.println("Press X to control another thread: ");
+            System.out.println("Press 0 to control another thread: ");
             stopThreadOne = keyboard.nextInt();
             while (stopThreadOne != anotherThread) {
                 if (threadName.equals(threadString1)) {
